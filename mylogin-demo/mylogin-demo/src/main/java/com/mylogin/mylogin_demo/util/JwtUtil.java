@@ -1,4 +1,4 @@
-package com.mylogin.mylogin_demo;
+package com.mylogin.mylogin_demo.util;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
@@ -8,7 +8,7 @@ import java.util.Date;
 
 @Component
 public class JwtUtil {
-    private final String SECRET_KEY = "your_secret_key";
+    private final String SECRET_KEY = "password123";
 
     public String generateToken(String username) {
         return Jwts.builder()

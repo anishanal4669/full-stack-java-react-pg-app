@@ -1,8 +1,7 @@
-package com.mylogin.mylogin_demo;
+package com.mylogin.mylogin_demo.repository;
 
 
-
-import com.mylogin.mylogin_demo.User;
+import com.mylogin.mylogin_demo.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.Optional;
 
